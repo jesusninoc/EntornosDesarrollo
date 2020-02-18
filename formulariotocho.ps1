@@ -32,7 +32,7 @@ $button.add_Click{
 
 $Form = New-Object System.Windows.Forms.Form
 $Label = New-Object System.Windows.Forms.Label
-$img = [System.Drawing.Image]::Fromfile('C:\Users\Usuario DAM 1\Desktop\hola.jpg')
+$img = [System.Drawing.Image]::Fromfile('C:\Users\Usuario DAM 1\Desktop\julian\LM\CSS\documentos\cervantes.jpg')
 $pictureBox = new-object Windows.Forms.PictureBox
 $pictureBox.Width = $img.Size.Width
 $pictureBox.Height = $img.Size.Height
@@ -63,7 +63,7 @@ $button2.add_Click{
 
 $Form = New-Object System.Windows.Forms.Form
 $Label = New-Object System.Windows.Forms.Label
-$Label.Text = "introducir texto"
+$Label.Text = "añadir comentarios"
 $Label.AutoSize = $True
 $Form.Controls.Add($Label)
 $Form.ShowDialog()
@@ -71,6 +71,18 @@ $Form.ShowDialog()
 
 }
 
+$button3.add_Click{
+
+
+$Form = New-Object System.Windows.Forms.Form
+$Label = New-Object System.Windows.Forms.Label
+$Label.Text = "introducir texto"
+$Label.AutoSize = $True
+$Form.Controls.Add($Label)
+$Form.ShowDialog()
+
+
+}
 $form.Controls.Add($button)
 $form.Controls.Add($button1)
 $form.Controls.Add($button2)
