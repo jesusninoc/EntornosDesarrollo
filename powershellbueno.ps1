@@ -21,10 +21,7 @@ $button3 = [Button] @{
  Text = 'buscar producto '
  
 }
-$button4 = [Button] @{
- Text = 'comprar '
- 
-}
+
 
 $button.Location = New-Object System.Drawing.Point (20,80)
 $button.Size= New-Object System.Drawing.Size(100,20)
